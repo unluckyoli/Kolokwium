@@ -38,7 +38,7 @@ namespace Kolokwium.Controllers
             }
         }
 
-        [HttpPost]
+        /*[HttpPost]
         public async Task<IActionResult> AddBookWithGenres([FromBody] BookWithGenres bookWithGenres)
         {
             try
@@ -57,5 +57,6 @@ namespace Kolokwium.Controllers
                 return StatusCode(500, $"blad {ex.Message}");
             }
         }
+    }*/
     }
 }

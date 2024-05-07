@@ -9,7 +9,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<IBooksRepository, BooksRepository>();
-builder.Services.AddScoped<IBooks2Repository, Books2Repository>();
+//builder.Services.AddScoped<IBooks2Repository, Books2Repository>();
 
 
 

@@ -81,7 +81,7 @@ public class Books2Repository
         
         }
 
-        public async Task<int> AddBookWithGenres(string title, List<int> genreIds)
+        /*public async Task<int> AddBookWithGenres(string title, List<int> genreIds)
         {
             await using var connection = new SqlConnection(_configuration.GetConnectionString("Default"));
             await connection.OpenAsync();
@@ -108,7 +108,6 @@ public class Books2Repository
                 
                 await transaction.CommitAsync();
                 
-                
                 return bookId;
             }
             catch (Exception)
@@ -116,6 +115,5 @@ public class Books2Repository
                 await transaction.RollbackAsync();
                 throw; 
             }
-        }
+        }*/
     }
-}
